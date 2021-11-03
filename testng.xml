@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="InetBankingV1">
+
+	<listeners>
+		<listener class-name="com.digistores.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="BankingApp Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+	 <class name="com.digistores.testcases.TC_001_Login"/>
+	 <class name="com.digistores.testcases.TC_002_HomepageElements"/>
+	 <class name="com.digistores.testcases.TC_003_Quicklinks"/>
+	 <class name="com.digistores.testcases.TC_004_AccrualPayment"/>
+	 <class name="com.digistores.testcases.TC_005_SWMPayment"/>
+	 <class name="com.digistores.testcases.TC_006_Redemption"/>
+		</classes>
+
+	</test>
+
+</suite>

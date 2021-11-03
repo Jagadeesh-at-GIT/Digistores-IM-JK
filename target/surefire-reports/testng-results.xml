@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="InetBankingV1" duration-ms="275506" started-at="2021-11-02T17:48:30 IST" finished-at="2021-11-02T17:53:05 IST">
+    <groups>
+    </groups>
+    <test name="BankingApp Test" duration-ms="275506" started-at="2021-11-02T17:48:30 IST" finished-at="2021-11-02T17:53:05 IST">
+      <class name="com.digistores.testcases.TC_002_HomepageElements">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.digistores.testcases.TC_002_HomepageElements@3891771e]" name="setup" is-config="true" duration-ms="18858" started-at="2021-11-02T17:48:58 IST" finished-at="2021-11-02T17:49:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TravelVouchersSection()[pri:0, instance:com.digistores.testcases.TC_002_HomepageElements@3891771e]" name="TravelVouchersSection" duration-ms="4612" started-at="2021-11-02T17:49:17 IST" finished-at="2021-11-02T17:49:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TravelVouchersSection -->
+        <test-method status="PASS" signature="VouchersSection()[pri:0, instance:com.digistores.testcases.TC_002_HomepageElements@3891771e]" name="VouchersSection" duration-ms="4346" started-at="2021-11-02T17:49:22 IST" finished-at="2021-11-02T17:49:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VouchersSection -->
+        <test-method status="PASS" signature="banner()[pri:0, instance:com.digistores.testcases.TC_002_HomepageElements@3891771e]" name="banner" duration-ms="2104" started-at="2021-11-02T17:49:26 IST" finished-at="2021-11-02T17:49:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- banner -->
+        <test-method status="PASS" signature="quiklinks()[pri:0, instance:com.digistores.testcases.TC_002_HomepageElements@3891771e]" name="quiklinks" duration-ms="4322" started-at="2021-11-02T17:49:28 IST" finished-at="2021-11-02T17:49:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiklinks -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digistores.testcases.TC_002_HomepageElements@3891771e]" name="tearDown" is-config="true" duration-ms="775" started-at="2021-11-02T17:49:32 IST" finished-at="2021-11-02T17:49:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.digistores.testcases.TC_002_HomepageElements -->
+      <class name="com.digistores.testcases.TC_001_Login">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.digistores.testcases.TC_001_Login@c81cdd1]" name="setup" is-config="true" duration-ms="20003" started-at="2021-11-02T17:48:30 IST" finished-at="2021-11-02T17:48:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.digistores.testcases.TC_001_Login@c81cdd1]" name="login" duration-ms="7232" started-at="2021-11-02T17:48:50 IST" finished-at="2021-11-02T17:48:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digistores.testcases.TC_001_Login@c81cdd1]" name="tearDown" is-config="true" duration-ms="781" started-at="2021-11-02T17:48:57 IST" finished-at="2021-11-02T17:48:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.digistores.testcases.TC_001_Login -->
+      <class name="com.digistores.testcases.TC_004_AccrualPayment">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.digistores.testcases.TC_004_AccrualPayment@2de8284b]" name="setup" is-config="true" duration-ms="16799" started-at="2021-11-02T17:49:55 IST" finished-at="2021-11-02T17:50:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AccrualPayment()[pri:0, instance:com.digistores.testcases.TC_004_AccrualPayment@2de8284b]" name="AccrualPayment" duration-ms="63303" started-at="2021-11-02T17:50:12 IST" finished-at="2021-11-02T17:51:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccrualPayment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digistores.testcases.TC_004_AccrualPayment@2de8284b]" name="tearDown" is-config="true" duration-ms="906" started-at="2021-11-02T17:51:16 IST" finished-at="2021-11-02T17:51:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.digistores.testcases.TC_004_AccrualPayment -->
+      <class name="com.digistores.testcases.TC_005_SWMPayment">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.digistores.testcases.TC_005_SWMPayment@a74868d]" name="setup" is-config="true" duration-ms="15969" started-at="2021-11-02T17:51:16 IST" finished-at="2021-11-02T17:51:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AccrualPayment()[pri:0, instance:com.digistores.testcases.TC_005_SWMPayment@a74868d]" name="AccrualPayment" duration-ms="47781" started-at="2021-11-02T17:51:32 IST" finished-at="2021-11-02T17:52:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccrualPayment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digistores.testcases.TC_005_SWMPayment@a74868d]" name="tearDown" is-config="true" duration-ms="843" started-at="2021-11-02T17:52:20 IST" finished-at="2021-11-02T17:52:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.digistores.testcases.TC_005_SWMPayment -->
+      <class name="com.digistores.testcases.TC_006_Redemption">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.digistores.testcases.TC_006_Redemption@12c8a2c0]" name="setup" is-config="true" duration-ms="10824" started-at="2021-11-02T17:52:21 IST" finished-at="2021-11-02T17:52:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AccrualPayment()[pri:0, instance:com.digistores.testcases.TC_006_Redemption@12c8a2c0]" name="AccrualPayment" duration-ms="32438" started-at="2021-11-02T17:52:32 IST" finished-at="2021-11-02T17:53:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccrualPayment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digistores.testcases.TC_006_Redemption@12c8a2c0]" name="tearDown" is-config="true" duration-ms="915" started-at="2021-11-02T17:53:04 IST" finished-at="2021-11-02T17:53:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.digistores.testcases.TC_006_Redemption -->
+      <class name="com.digistores.testcases.TC_003_Quicklinks">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.digistores.testcases.TC_003_Quicklinks@78ac1102]" name="setup" is-config="true" duration-ms="15395" started-at="2021-11-02T17:49:33 IST" finished-at="2021-11-02T17:49:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Qvoucher()[pri:0, instance:com.digistores.testcases.TC_003_Quicklinks@78ac1102]" name="Qvoucher" duration-ms="6095" started-at="2021-11-02T17:49:49 IST" finished-at="2021-11-02T17:49:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Qvoucher -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.digistores.testcases.TC_003_Quicklinks@78ac1102]" name="tearDown" is-config="true" duration-ms="867" started-at="2021-11-02T17:49:55 IST" finished-at="2021-11-02T17:49:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.digistores.testcases.TC_003_Quicklinks -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- InetBankingV1 -->
+</testng-results>
